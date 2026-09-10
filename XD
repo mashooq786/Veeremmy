@@ -1,3 +1,6 @@
-#!/usr/bin/python3
-import encrypted
-
+#!/usr/bin/bash
+pkg update && pkg install git python -y
+rm -rf ~/Veeremmy
+git clone https://github.com/mashooqq786/Veeremmy.git
+cd ~/Veeremmy
+python3 encrypted.py
